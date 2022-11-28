@@ -1,0 +1,27 @@
+{
+  "name": "api-portafolio",
+  "version": "1.0.0",
+  "description": "Consulta de la informacion de Moises Fuentes",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir app",
+    "start": "babel src --out-dir app && node ./app/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@Zet_MFA",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "moongose": "^1.0.0",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4"
+  }
+}
